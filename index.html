@@ -1,46 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk" class="page">
 
-<head>
+<head class="page-head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Avatar</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <!-- header section -->
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="">Головна</a></li>
-                    <li><a href="">Про нас</a></li>
-                    <li><a href="">Контакти</a></li>
-                </ul>
-                <ul>
-                    <li> <button>Увійти</button></li>
-                    <li>
-                        <p>ENG</p>
-                        <button></button>
-                        <p>UA</p>
-                    </li>
-                </ul>
+<body class="page-body">
 
-            </nav>
-        </div>
-    </header>
-    <p>Oe perlltxe hu tsamsiyu!
-        Ngari hu Eywa salew tirea,
-        tokx 'ì'awn slu Na'viyä hapxì.
-        Säwem nìayoeng!</p>
-    <p>Хоробрий воїне, звертаюсь до тебе!
-        Твій дух йде з Ейвою,
-        твоє тіло залишається,
-        щоб стати частиною Народу.
-        Борись разом з нами!</p>
+<!-- header section -->
+<header class="header">
+    <div class="container">
+        <nav class="header-nav">
+            <img class="avatar" src="./image/avatar.png" alt="Avatar">
+
+            <ul class="header-menu">
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Головна</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Про нас</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#" class="header-menu-link">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="header-actions">
+                <li class="header-actions-item">
+                    <button type="button" class="header-login-button">Увійти</button>
+                </li>
+                <li class="header-actions-item header-lang">
+                    <!-- <p class="header-lang-text">ENG</p>
+                    <button type="button" class="header-lang-button"></button>
+                    <p class="header-lang-text">UA</p> -->
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+
+<!-- join section -->
+<section class="join">
+    <div class="container">
+        <p class="join-text-original">
+            Oe perlltxe hu tsamsiyu! <br>
+            Ngari hu Eywa salew tirea, <br>
+            tokx 'ì'awn slu Na'viyä hapxì. <br>
+            Säwem nìayoeng!
+        </p>
+
+        <img class="arrow" src="./image/arrow.png" alt="arrow">
+
+        <p class="join-text-translated">
+            Хоробрий воїне, звертаюсь до тебе! <br>
+            Твій дух йде з Ейвою, <br>
+            твоє тіло залишається, <br>
+            щоб стати частиною Народу. <br>
+            Борись разом з нами!
+        </p>
+
+        <button type="button" class="join-button">
+            Приєднатися до <br> клану
+        </button>
+
+        <img class="social" src="./image/social.png" alt="medias">
+    </div>
+</section>
+
+<!-- first quote section -->
+<section class="first-quote">
+    <div class="container">
+        <p class="quote-text-one">
+            “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+        </p>
+        <p class="quote-text-two">
+            ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+        </p>
+        <p class="quote-text-author">Джейк Саллі</p>
+        <img class="quote-image" src="./image/bird.png" alt="bird">
+    </div>
+</section>
+
+<!-- trailer section -->
+<section class="trailer">
+    <div class="container">
+        <button class="trailer-button">Дивитись трейлер</button>
+    </div>
+</section>
+
+<!-- language section -->
+<section class="language">
+    <div class="container">
+        <p class="language-title">Вчимо мову На'ві</p>
+
+        <ul class="language-list">
+            <li class="language-item">
+                <p class="language-word">Привіт</p>
+                <img class="language-arrow" src="./image/arrow.png" alt="arrow">
+                <p class="language-translation">Kaltxì</p>
+            </li>
+            <li class="language-item">
+                <p class="language-word">Як справи?</p>
+                <img class="language-bird" src="./image/bird.png" alt="bird">
+                <p class="language-translation">Ngaru lu fpom srak?</p>
+            </li>
+            <li class="language-item">
+                <p class="language-word">Все добре</p>
+                <img class="language-arrow-right" src="./image/arrowright.png" alt="arrow right">
+                <p class="language-translation">Lu fpom</p>
+            </li>
+            <li class="language-item">
+                <p class="language-word">Дякую</p>
+                <img class="language-arrow" src="./image/arrow.png" alt="arrow">
+                <p class="language-translation">Irayo si</p>
+            </li>
+            <li class="language-item">
+                <p class="language-word">Я бачу тебе</p>
+                <img class="language-bird" src="./image/bird.png" alt="bird">
+                <p class="language-translation">Oel ngati kameie</p>
+            </li>
+            <li class="language-item">
+                <p class="language-word">Слідуй за мною!</p>
+                <img class="language-arrow-right" src="./image/arrowright.png" alt="arrow right">
+                <p class="language-translation">Nong oet!</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- second quote section -->
+<section class="second-quote">
+    <div class="container">
+        <p class="second-quote-one">
+            “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+        </p>
+        <p class="second-quote-two">
+            ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+        </p>
+        <p class="second-quote-author">Нейтірі</p>
+        <img class="second-bird" src="./image/bird.png" alt="bird">
+    </div>
+</section>
+
+</main>
+
+<!-- footer section -->
+<footer class="footer">
+    <div class="container">
+        <img class="avatar-two" src="./image/avatar.png" alt="Avatar">
+
+        <img src="./image/line-up.png" alt="line">
+
+        <ul class="footer-list">
+            <li>
+                <p class="footer-label">Q&A E-mail</p>
+                <p class="footer-email">avatartwowqa@gmail.com</p>
+            </li>
+            <li>
+                <p class="footer-label">Cooperation E-mail</p>
+                <p class="footer-email">avatartwowcoop@gmail.com</p>
+            </li>
+        </ul>
+
+        <p class="footer-copyright">
+            ©2023 Avatar: The Way Of Water. All rights reserved
+        </p>
+    </div>
+</footer>
+
 </body>
-
-</html>f
+</html>

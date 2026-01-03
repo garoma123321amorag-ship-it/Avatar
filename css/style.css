@@ -1,0 +1,180 @@
+body {
+    font-family: "Hammersmith One", sans-serif;
+}
+
+.avatar {
+    width: 186px;
+    height: 72px;
+}
+
+
+.avatar-two {
+    width: 183px;
+    height: 70px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header {
+    border-bottom: 3px solid #fff;
+    background-image: url("../image/backscreen-one.png"), url("../image/backscreen-four.png");
+}
+
+.header-menu {
+    display: flex;
+    gap: 38px;
+    margin-top: 63px;
+    margin-bottom: 63px;
+}
+
+.header-menu-link {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.header-actions{
+    display: flex;
+}
+
+.header-menu-link:hover {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #94cfff;
+}
+
+.header-login-button {
+    width: 141px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #26c7ea;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    background: #0b0e66;
+}
+
+.join {
+    background-image: url("../image/backscreen-two.png");
+}
+
+.join-text-original,
+.join-text-translated {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.join-button,
+.trailer-button {
+    width: 260px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #26c7ea;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0;
+    background: #0b0e66;
+}
+
+.trailer {
+    background-image: url("../image/backscreen-three.jpg");
+}
+
+.social {
+    width: 50px;
+    height: 141px;
+}
+
+.quote-text-one,
+.quote-text-two,
+.second-quote-one,
+.second-quote-two {
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #0a3853;
+}
+
+
+
+.second-quote-author {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.quote-text-author {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.quote-image,
+.second-bird {
+    display: block;
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.language {
+    background-image: url("../image/backscreen.png");
+}
+
+.language-title {
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #141414;
+}
+
+.language-word,
+.language-translation {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    color: #000;
+}
+
+.language-arrow,
+.language-arrow-right,
+.language-bird {
+    width: 152px;
+    height: 40px;
+}
+
+.footer {
+    background-image: url("../image/backscreen-five.jpg"), url("../image/back.png");
+}
+
+.footer-label {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+}
+
+.footer-email {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+}
+
+.footer-copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
